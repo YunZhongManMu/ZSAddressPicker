@@ -25,6 +25,9 @@
     ZSPickerView *pickerView = [[ZSPickerView alloc] init];
     pickerView.delegate = self;
     _pickerView = pickerView;
+    
+    NSLog(@"ddddd");
+    
 }
 
 - (IBAction)buttonClick {
